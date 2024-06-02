@@ -144,7 +144,7 @@ const Post = () => {
                             <h3 className="font-bold text-blue-700">{post.title}</h3>
 
                             <p className="mb-4">{post.content}</p>
-                            <div className="flex justify-between text-sm gap-5">
+                            <div className="flex md:flex-col justify-between text-sm gap-5">
                                 <p>{post.author}</p>
                                 <p>
                                     {post.createdAt ? new Date(post.createdAt).toLocaleDateString() : ''}
